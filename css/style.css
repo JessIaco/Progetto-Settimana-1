@@ -1,15 +1,17 @@
 
-/* usare unico div container mi incasinava tuttooo */
-/* non mi uccida, mai toccato css prima :(  */
+/* corretto un po' di casini che ho notato dopo */
+
+.container {
+
+    width: 400px;
+    margin: auto;
+}
 
 header {
     background-color: black;
     text-align: center;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 390px;
+   
 }
 
 
@@ -34,7 +36,6 @@ body {
 
 .primobox {
 
-    width: 350px;
     height: auto;
     margin: auto;
     padding: 20px;
@@ -58,7 +59,7 @@ button {
 }
 
 .secondobox {
-    width: 350px;
+ 
     height: auto;
     margin: auto;
     margin-top: 25px;
@@ -84,9 +85,7 @@ b { font-weight: bold;}
 em { font-style: italic; }
 
 .boxrosso {
-    width: 350px;
-    height: auto;
-    margin: auto;
+    
     margin-top: 25px;
     padding: 20px;
     background-color: #f04c2f;
@@ -94,9 +93,7 @@ em { font-style: italic; }
 }
 
 .terzobox {
-    width: 350px;
-    height: auto;
-    margin: auto;
+   
     margin-top: 25px;
     padding: 20px;
 }
@@ -112,9 +109,7 @@ aside {
 }
 
 footer {
-    width: 350px;
-    height: auto;
-    margin: auto;
+    
     margin-top: 25px;
     padding: 20px;
     background-color: #25A2C3;
